@@ -22,7 +22,6 @@ geographiclib
 geopy
 h3
 idna
-install
 itsdangerous
 Jinja2
 joypy
