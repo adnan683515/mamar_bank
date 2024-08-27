@@ -68,9 +68,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://mamar-bank-08gx.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['mamar-bank-08gx.onrender.com']
 
-ALLOWED_HOSTS = ['https://mamar-bank-08gx.onrender.com', 'localhost']
+ALLOWED_HOSTS = ['mamar-bank-08gx.onrender.com', 'localhost']
 
 ROOT_URLCONF = 'mamar_bank.urls'
 
