@@ -61,7 +61,6 @@ pyttsx3
 pytweening
 pytz
 pywhatkit
-pywin32
 qrcode
 requests
 scipy
