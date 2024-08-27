@@ -34,7 +34,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -68,9 +68,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CSRF_TRUSTED_ORIGINS = ['mamar-bank-08gx.onrender.com']
+# CSRF_TRUSTED_ORIGINS = ['mamar-bank-08gx.onrender.com']
 
-ALLOWED_HOSTS = ['mamar-bank-08gx.onrender.com', 'localhost']
+# ALLOWED_HOSTS = ['mamar-bank-08gx.onrender.com', 'localhost']
 
 ROOT_URLCONF = 'mamar_bank.urls'
 
